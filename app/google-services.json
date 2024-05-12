@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "594815374771",
+    "project_id": "kertshop-f564f",
+    "storage_bucket": "kertshop-f564f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594815374771:android:d65d60710775eb41de27c6",
+        "android_client_info": {
+          "package_name": "com.example.kertshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594815374771-suvlsiuin4ub2npfv0fi9a8beu011ffj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fHk91ptbUfFRtq1Q3F5WTYKcxil1f4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594815374771-suvlsiuin4ub2npfv0fi9a8beu011ffj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594815374771:android:8a46105d3fee97bcde27c6",
+        "android_client_info": {
+          "package_name": "hu.alkfejl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594815374771-suvlsiuin4ub2npfv0fi9a8beu011ffj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fHk91ptbUfFRtq1Q3F5WTYKcxil1f4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594815374771-suvlsiuin4ub2npfv0fi9a8beu011ffj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

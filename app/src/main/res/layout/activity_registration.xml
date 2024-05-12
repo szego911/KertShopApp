@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/registrationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/regist_title"
+        android:textSize="30sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registrationTextView"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/regist_username"
+        android:inputType="text"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/regist_Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/regist_address"
+        android:inputType="textMultiLine|textPostalAddress"
+        android:maxLines="3"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressEditText"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/regist_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/passwordAgainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/regist_password_again"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordAgainEditText"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/green"
+        android:onClick="register"
+        android:text="@string/regist_button" />
+
+    <Button
+        android:id="@+id/registerCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerButton"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/green"
+        android:onClick="cancel"
+        android:text="@string/back" />
+
+</RelativeLayout>

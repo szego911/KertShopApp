@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KertShop10" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Button.Green" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+    </style>
+
+
+    <style name="Theme.KertShop10" parent="Base.Theme.KertShop10" />
+
+    <style name="ItemDetailText" parent="TextAppearance.AppCompat.Subhead"/>
+    <style name="ItemTitle" parent="TextAppearance.AppCompat.Headline"/>
+    <style name="ItemDetailTitle" parent="TextAppearance.AppCompat.Headline"/>
+
+</resources>
